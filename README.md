@@ -8,4 +8,4 @@ Gostei muito, vale a pena assistir e praticar, colocar a mão na massa.
 Assim você vai aprendendo, vendo que um caracter errado, já bugga, e então procurar esse erro.
 
 Eu estou iniciando estudas, então, boa parte do código, não consegui compreender, mas, mesmo assim, vale a pena
-assistir e ir reproduzindo a medida, ir asdimilando conteudo.
+assistir e ir reproduzindo a medida, ir assimilando conteudo.
