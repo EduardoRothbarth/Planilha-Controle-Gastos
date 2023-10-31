@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+ol li {
+    cursor: pointer;
+    background: white;
+    padding: 8px 16px;
+    border-bottom: 1px solid gray;
+}
+ol li:hover {
+    opacity: 0.8;
+}
+ol li.expense {
+    border-left: 10px solid red;
+}
+ol li.income {
+    border-left: 10px solid green;
+} 
+
+/*botão danger que abaixo foi informado para ficar com a visibilidade escondida, aparecerá na tela
+apenas quando o usuário passar o mouse SOB o item da lista, ou seja, o usuário só visualizará um
+botão de remover por vez.. será apenas aquele a qual ele estiver com o mouse SOB o item da lista
+display block força a visibilidade, fixando aquele item na tela*/
+ol li:hover button.danger{
+ display: block;
+}
+
+/*Dentro da pagina HOME, todo botão da classe danger, terá o tamanho mínimo necessário e estará
+posicionado sempre no lado direto.. display none indica que o botão NÃO deve ficar vivivel o 
+tempo todo*/
+button.danger{
+    width: auto;
+    float: right;
+    display: none;
+}
+
+p {
+    margin: 4px 0;
+}

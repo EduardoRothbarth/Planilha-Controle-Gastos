@@ -1,0 +1,1 @@
+Esta pasta conterá todos os scripts relacionados a chamada ao BACKEND.

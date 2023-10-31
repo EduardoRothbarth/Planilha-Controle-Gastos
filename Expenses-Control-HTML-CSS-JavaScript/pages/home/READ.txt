@@ -1,0 +1,11 @@
+A instrução: user.getIdToken(), que retorna uma promisse, vamos pegar a resposta e 
+jogar no console, pois ai conseguiremos ver o TOKEN.. se executar a pagina home.js e formos ver o console
+obteremos conjunto de caracteres gigante, ao copiar eles, ir para a pagina jwt.io e colar o token lá
+visualizaremos algumas informações em 3 partes: cabeçalho (contem informações do JWT), o payload (que
+contem as informações que estão encriptadas) e a assinatura desse JWT.
+Caso alguem tentasse alterar o id do usuário (que fica no payload), o JWT ficará inválido.
+Os atributos: user id e sub que são os identificadores do usuário... então o que será feito é o usuário
+SEMPRE irá enviar esse JWT ao BACK END, dai o BACK END vai validar o JWT e vai usar o id do usuário para
+poder fazer as operações necessárias para aquele usuário.
+Temos também o atributo exp que identifica a data e horário de experiação deste JWT, ou seja, a partir 
+dessa data e hora o JWT fica inválido.
